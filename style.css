@@ -3,3 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  margin: 0 50px;
+  padding: 10px;
+}
+.navbar img {
+  width: 50px;
+  height: 50px;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 0 5px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  padding: 4px 16px;
+  color: black;
+  font-weight: bold;
+}
+.navbar ul li a:hover {
+  border-bottom: 0.5px solid black;
+}
