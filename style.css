@@ -33,3 +33,51 @@
 .navbar ul li a:hover {
   border-bottom: 0.5px solid black;
 }
+.dev01 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  background-color: wheat;
+}
+.dev01 img {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+}
+.hero {
+  padding: 0 30px;
+  line-height: 30px;
+}
+.hero h1 {
+  text-align: center;
+}
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.btn button {
+  padding: 8px 24px;
+}
+.dav02 {
+  width: 100vw;
+  margin: 0 auto;
+  background-color: wheat;
+}
+.dav02 h2 {
+  text-align: center;
+  padding: 20px;
+}
+.allplaces {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+}
+.allplaces img {
+  width: 300px;
+
+  margin: 5px;
+}
